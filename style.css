@@ -1,0 +1,41 @@
+/* regole generali */
+body{
+    font-family: "Roboto", sans-serif;
+}
+
+.box{
+    /* debug */
+    min-height: 50px;
+    background-color: chocolate;
+}
+
+
+
+/* regole header */
+header .box_container{
+    height: 70px;
+    /* debug */
+    background-color: bisque;
+}
+
+
+
+/* regole barra di sinistra */
+#left-bar .box_container{
+    height: calc(100vh - 70px);
+    background-color: #051f33;
+}
+
+
+
+
+/* regole main */
+main .box_container{
+    height: calc(100vh - 70px);
+    /* debug */
+    background-color: azure;
+}
+
+
+
+    
