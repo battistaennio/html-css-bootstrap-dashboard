@@ -1,4 +1,7 @@
-/* regole generali */
+:root{
+    --height-header: 60px;
+}
+
 body{
     font-family: "Roboto", sans-serif;
 }
@@ -12,17 +15,32 @@ body{
 
 
 /* regole header */
-header .box_container{
-    height: 70px;
-    /* debug */
-    background-color: bisque;
+header.box_container{
+    height: var(--height-header);
 }
 
+    /* regole NavBar di BootStrap */
+.navbar-brand img{
+    width: 50px;
+}
+
+.dropdown-toggle::after{
+    display: none;
+}
+
+.navbar-expand .navbar-nav .dropdown-menu{
+    left: -140px;
+}
+
+.form-control{
+    background-color: #e9ecef;
+    border-left: none;
+}
 
 
 /* regole barra di sinistra */
 #left-bar .box_container{
-    height: calc(100vh - 70px);
+    height: calc(100vh - var(--height-header));
     background-color: #051f33;
 }
 
@@ -31,7 +49,7 @@ header .box_container{
 
 /* regole main */
 main .box_container{
-    height: calc(100vh - 70px);
+    height: calc(100vh - var(--height-header));
     /* debug */
     background-color: azure;
 }
