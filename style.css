@@ -8,8 +8,9 @@ body{
 
 .box{
     /* debug */
-    min-height: 50px;
+    /* min-height: 50px; */
     background-color: chocolate;
+    border: 2px solid blue;
 }
 
 
@@ -39,9 +40,22 @@ header.box_container{
 
 
 /* regole barra di sinistra */
-#left-bar .box_container{
+#left-bar{
     height: calc(100vh - var(--height-header));
     background-color: #051f33;
+    color: white;
+}
+
+#left-bar .nav{
+    display: block;
+}
+
+#left-bar .nav-link{
+    color: white;
+}
+
+#left-bar .nav-link i{
+    margin-right: 5px;
 }
 
 
@@ -54,6 +68,22 @@ main .box_container{
     background-color: azure;
 }
 
+    /* regole card */
+.list-group-item{
+    display: inline-flex;
+}
 
+.list-group-item img{
+    width: 30px;
+    margin-right: 5px;
+}
+
+.card span{
+    font-size: 13px;
+}
+
+.btn.btn-warning{
+    color: white;
+}
 
     
