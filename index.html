@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap | 2</title>
+    <title>DEBUG Bootstrap | 2</title>
 
     <!-- Google Fonts Roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -91,32 +91,50 @@
 
             <div id="left-bar">
 
-                <div class="container pt-3">
+                <div id="icon_container" class="row justify-content-center g-0">
+                    <div class="col-5 mt-4">
 
-                    <ul class="nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="fa-solid fa-house"></i>
-                                Home
-                            </a>
-                        </li>
+                        <div class="row justify-content-center g-0 mt-3 hover">
+                            <div class="col-4 text-center">
+                                    <i class="fa-solid fa-house"></i>
+                            </div>
+                            <div class="col-6 d-none d-lg-block">
+                                <span>Home</span>
+                            </div>
+                        </div>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <i class="fa-solid fa-chart-simple"></i>
-                                Stats
-                            </a>
-                        </li>
+                        <div class="row justify-content-center g-0 mt-3 hover">
+                            <div class="col-4 text-center pe-2">
+                                    <i class="fa-solid fa-chart-simple"></i>
+                            </div>
+                            <div class="col-6 d-none d-lg-block">
+                                <span>Stats</span>
+                            </div>
+                        </div>
 
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
+                        <div class="row justify-content-center g-0 mt-3 hover">
+                            <div class="col-4 text-center pe-2">
                                 <i class="fa-solid fa-signal"></i>
-                                Signals
-                            </a>
-                        </li>
-                    </ul>
+                            </div>
+                            <div class="col-6 d-none d-lg-block">
+                                <span>Signals</span>
+                            </div>
+                        </div>
 
+                    </div>
+
+                    <div class="col-12 align-self-end">
+                        <div class="row justify-content-center g-0 m-3">
+                            <div class="col-2 text-end pe-2">
+                                <i class="fa-solid fa-gear"></i>
+                            </div>
+                            <div class="col-3 d-none d-lg-block">
+                                <span>Admin</span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
             </div>
 
         </div>
@@ -134,11 +152,11 @@
 
                             <div class="row justify-content-md-between align-items-center">
 
-                                <div class="col-12 col-md-3 col-lg-2 my-2 order-md-3">
-                                    <span>Nuovo Studente</span>
-                                    <!-- canvas -->
+                                <div class="col-12 col-md-auto order-md-3">
+                                    <span class="me-2">Nuovo Studente</span>
+                                    <!-- button canvas -->
                                     <button class="btn btn-outline-primary border border-light" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
-                
+                                    <!-- canvas -->
                                     <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                         <div class="offcanvas-header">
                                           <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
@@ -207,7 +225,7 @@
                                 <div class="col-12 col-md-auto my-2 order-md-1">
                                     <strong>Boolean</strong>
                                     <span class="badge text-bg-primary">Piano blaze</span>
-                                    
+                                    <!-- breadcrumb -->
                                     <nav style="--bs-breadcrumb-divider: '&raquo';" aria-label="breadcrumb">
                                         <ol class="breadcrumb">
                                           <li class="breadcrumb-item"><a href="#"><span class="badge text-bg-primary">3 app</span></a></li>
@@ -223,7 +241,7 @@
                                     </nav>
                                 </div>
 
-                                <div class="col-12 col-md-4 my-2 order-md-2">
+                                <div class="col-12 col-md-3 my-2 order-md-2">
                                     <span>Studenti online negli ultimi 30 minuti</span>
                                     <br>
                                     <strong>125</strong>
@@ -270,7 +288,7 @@
 
                                     </li>
 
-                                    <li class="list-group-item row">
+                                    <li class="list-group-item row hover">
                                         <div class="col-4">
                                             <img src="img/class-avatar1.jpg" alt="class-avatar">
                                             <span>Classe 75</span>
@@ -298,7 +316,7 @@
 
                                     </li>
 
-                                    <li class="list-group-item row">
+                                    <li class="list-group-item row hover">
                                         <div class="col-4">
                                             <img src="img/class-avatar1.jpg" alt="class-avatar">
                                             <span>Classe 76</span>
@@ -326,7 +344,7 @@
 
                                     </li>
 
-                                    <li class="list-group-item row">
+                                    <li class="list-group-item row hover">
                                         <div class="col-4">
                                             <img src="img/class-avatar1.jpg" alt="class-avatar">
                                             <span>Classe 77</span>
@@ -354,7 +372,7 @@
 
                                     </li>
 
-                                    <li class="list-group-item row">
+                                    <li class="list-group-item row hover">
                                         <div class="col-4">
                                             <img src="img/class-avatar1.jpg" alt="class-avatar">
                                             <span>Classe 78</span>
@@ -382,7 +400,7 @@
 
                                     </li>
 
-                                    <li class="list-group-item row">
+                                    <li class="list-group-item row hover">
                                         <div class="col-4">
                                             <img src="img/class-avatar1.jpg" alt="class-avatar">
                                             <span>Classe 79</span>
@@ -410,7 +428,7 @@
 
                                     </li>
 
-                                    <li class="list-group-item row">
+                                    <li class="list-group-item row hover">
                                         <div class="col-4">
                                             <img src="img/class-avatar1.jpg" alt="class-avatar">
                                             <span>Classe 80</span>
@@ -438,7 +456,7 @@
 
                                     </li>
 
-                                    <li class="list-group-item row">
+                                    <li class="list-group-item row hover">
                                         <div class="col-4">
                                             <img src="img/class-avatar1.jpg" alt="class-avatar">
                                             <span>Classe 81</span>
@@ -466,7 +484,7 @@
 
                                     </li>
 
-                                    <li class="list-group-item row">
+                                    <li class="list-group-item row hover">
                                         <div class="col-4">
                                             <img src="img/class-avatar1.jpg" alt="class-avatar">
                                             <span>Classe 82</span>

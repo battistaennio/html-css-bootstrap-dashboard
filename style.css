@@ -6,6 +6,11 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+.hover:hover{
+    background-color: rgba(211, 211, 211, 0.658);
+    cursor: pointer;
+}
+
 /* regole header */
 header.box_container{
     height: var(--height-header);
@@ -35,20 +40,10 @@ header.box_container{
 
 
 /* regole barra di sinistra */
-#sidebar {
-    -ms-flex: 0 0 230px;
-    flex: 0 0 230px;
-    background-color: greenyellow; 
-} 
-
 #left-bar{
     height: calc(100vh - var(--height-header));
     background-color: #051f33;
     color: white;
-}
-
-#left-bar .nav{
-    display: block;
 }
 
 #left-bar .nav-link{
@@ -57,6 +52,10 @@ header.box_container{
 
 #left-bar .nav-link i{
     margin-right: 5px;
+}
+
+#icon_container{
+    height: 100%;
 }
 
 
@@ -69,10 +68,6 @@ main .box_container{
     overflow-y: auto;
 }
 
-.card img{
-    border-radius: 15px;
-}
-
     /* regole sezione azzurra */
 #blue_bar{
     background-color: #1b72e8;
@@ -83,7 +78,7 @@ main .box_container{
     font-size: 25px;
 }
 
-    /* regole canvas */
+        /* regole canvas */
 .offcanvas.offcanvas-end{
     width: 100%;
 }
@@ -96,12 +91,19 @@ main .box_container{
     color: black;
 }
 
-/* regole breadcrumbs */
+        /* regole breadcrumbs */
 .text-bg-primary{
-  background-color: rgba(0, 75, 188, 0.649) !important
+  background-color: rgba(0, 75, 188, 0.649) !important;
 }
+    /* fine regole sezione azzurra */
 
-    /* regole card */
+
+    /* regole card main */
+.card img{
+    border-radius: 15px;
+}
+    
+
 .list-group-item{
     display: inline-flex;
 }
