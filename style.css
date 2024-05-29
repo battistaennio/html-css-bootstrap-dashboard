@@ -1,19 +1,10 @@
 :root{
-    --height-header: 60px;
+    --height-header: 55px;
 }
 
 body{
     font-family: "Roboto", sans-serif;
 }
-
-.box{
-    /* debug */
-    /* min-height: 50px; */
-    background-color: chocolate;
-    border: 2px solid blue;
-}
-
-
 
 /* regole header */
 header.box_container{
@@ -21,8 +12,12 @@ header.box_container{
 }
 
     /* regole NavBar di BootStrap */
-.navbar-brand img{
-    width: 50px;
+#logo_small{
+    width: 30px;
+}
+
+#logo_big{
+    width: 150px;
 }
 
 .dropdown-toggle::after{
@@ -40,6 +35,12 @@ header.box_container{
 
 
 /* regole barra di sinistra */
+#sidebar {
+    -ms-flex: 0 0 230px;
+    flex: 0 0 230px;
+    background-color: greenyellow; 
+} 
+
 #left-bar{
     height: calc(100vh - var(--height-header));
     background-color: #051f33;
@@ -62,11 +63,36 @@ header.box_container{
 
 
 /* regole main */
+
 main .box_container{
     height: calc(100vh - var(--height-header));
-    /* debug */
-    background-color: azure;
+    overflow-y: auto;
 }
+
+.card img{
+    border-radius: 15px;
+}
+
+    /* regole sezione azzurra */
+#blue_bar{
+    min-height: 150px;
+    background-color: #1b72e8;
+    color: white;
+}
+
+    /* regole canvas */
+.offcanvas.offcanvas-end{
+    width: 60%;
+}
+
+#blue_bar .btn-outline-primary{
+    --bs-btn-color: #ffff;
+}
+
+#blue_bar .offcanvas{
+    color: black;
+}
+
 
     /* regole card */
 .list-group-item{
@@ -82,7 +108,7 @@ main .box_container{
     font-size: 13px;
 }
 
-.btn.btn-warning{
+.card .btn.btn-warning{
     color: white;
 }
 
