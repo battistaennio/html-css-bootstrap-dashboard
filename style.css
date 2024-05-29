@@ -33,7 +33,7 @@ header.box_container{
     left: -140px;
 }
 
-.form-control{
+header .form-control{
     background-color: #e9ecef;
     border-left: none;
 }
