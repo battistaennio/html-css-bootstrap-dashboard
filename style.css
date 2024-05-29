@@ -75,14 +75,17 @@ main .box_container{
 
     /* regole sezione azzurra */
 #blue_bar{
-    min-height: 150px;
     background-color: #1b72e8;
     color: white;
 }
 
+#blue_bar strong{
+    font-size: 25px;
+}
+
     /* regole canvas */
 .offcanvas.offcanvas-end{
-    width: 60%;
+    width: 100%;
 }
 
 #blue_bar .btn-outline-primary{
@@ -93,6 +96,10 @@ main .box_container{
     color: black;
 }
 
+/* regole breadcrumbs */
+.text-bg-primary{
+  background-color: rgba(0, 75, 188, 0.649) !important
+}
 
     /* regole card */
 .list-group-item{
@@ -112,4 +119,11 @@ main .box_container{
     color: white;
 }
 
+
+@media screen and (min-width:992px) {
+    .offcanvas.offcanvas-end{
+        width: 50%;
+    }
+    
+}
     
