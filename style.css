@@ -95,6 +95,10 @@ main .box_container{
 .text-bg-primary{
   background-color: rgba(0, 75, 188, 0.649) !important;
 }
+
+.breadcrumb{
+    --bs-breadcrumb-item-padding-x: 0.15rem;
+}
     /* fine regole sezione azzurra */
 
 
@@ -121,7 +125,7 @@ main .box_container{
     color: white;
 }
 
-
+/* &raquo */
 @media screen and (min-width:992px) {
     .offcanvas.offcanvas-end{
         width: 50%;

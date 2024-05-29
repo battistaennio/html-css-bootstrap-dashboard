@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DEBUG Bootstrap | 2</title>
+    <title>Bootstrap | 2</title>
 
     <!-- Google Fonts Roboto -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -95,7 +95,7 @@
                     <div class="col-5 mt-4">
 
                         <div class="row justify-content-center g-0 mt-3 hover">
-                            <div class="col-4 text-center">
+                            <div class="col-12 col-lg-4 text-center">
                                     <i class="fa-solid fa-house"></i>
                             </div>
                             <div class="col-6 d-none d-lg-block">
@@ -104,7 +104,7 @@
                         </div>
 
                         <div class="row justify-content-center g-0 mt-3 hover">
-                            <div class="col-4 text-center pe-2">
+                            <div class="col-12 col-lg-4 text-center">
                                     <i class="fa-solid fa-chart-simple"></i>
                             </div>
                             <div class="col-6 d-none d-lg-block">
@@ -113,7 +113,7 @@
                         </div>
 
                         <div class="row justify-content-center g-0 mt-3 hover">
-                            <div class="col-4 text-center pe-2">
+                            <div class="col-12 col-lg-4 text-center">
                                 <i class="fa-solid fa-signal"></i>
                             </div>
                             <div class="col-6 d-none d-lg-block">
@@ -224,19 +224,36 @@
 
                                 <div class="col-12 col-md-auto my-2 order-md-1">
                                     <strong>Boolean</strong>
-                                    <span class="badge text-bg-primary">Piano blaze</span>
+                                    <a href="#">
+                                        <span class="badge text-bg-primary">Piano blaze</span>
+                                    </a>
                                     <!-- breadcrumb -->
-                                    <nav style="--bs-breadcrumb-divider: '&raquo';" aria-label="breadcrumb">
+                                    <nav style="--bs-breadcrumb-divider: '';" aria-label="breadcrumb">
                                         <ol class="breadcrumb">
+
                                           <li class="breadcrumb-item"><a href="#"><span class="badge text-bg-primary">3 app</span></a></li>
+
+                                          <li class="breadcrumb-item">&raquo</li>
+
                                           <li class="breadcrumb-item d-lg-none"><a href="#"><span class="badge text-bg-primary">+</span></a></li>
+
                                           <li class="breadcrumb-item d-none d-lg-block">
-                                            <a href="#">
-                                                <span class="badge text-bg-primary">Boolean mobile app</span>
-                                                <span class="badge text-bg-primary">Boolean web app</span>
-                                                <span class="badge text-bg-primary">Boolean blog app</span>
-                                            </a>
-                                        </li>
+                                                <a href="#">
+                                                    <span class="badge text-bg-primary">Boolean mobile app</span>
+                                                </a>
+                                          </li>
+
+                                          <li class="breadcrumb-item d-none d-lg-block">
+                                                <a href="#">
+                                                    <span class="badge text-bg-primary">Boolean web app</span>
+                                                </a>
+                                          </li>
+
+                                          <li class="breadcrumb-item d-none d-lg-block">
+                                                <a href="#">
+                                                    <span class="badge text-bg-primary">Boolean blog app</span>
+                                                </a>
+                                          </li>
                                         </ol>
                                     </nav>
                                 </div>
@@ -594,7 +611,7 @@
                         </div>  
 
                         <!-- card grafico -->
-                        <div class="card">
+                        <div class="card mb-4">
                             <img src="img/stats.jpeg" alt="stats">
                             <div class="card-body">
                                 <h5 class="card-title">Utenti attivi</h5>
