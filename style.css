@@ -12,7 +12,7 @@ body{
 }
 
 /* regole header */
-header.box_container{
+header{
     height: var(--height-header);
 }
 
@@ -58,12 +58,9 @@ header .form-control{
     height: 100%;
 }
 
-
-
-
 /* regole main */
 
-main .box_container{
+#main_container{
     height: calc(100vh - var(--height-header));
     overflow-y: auto;
 }
@@ -107,7 +104,6 @@ main .box_container{
     border-radius: 15px;
 }
     
-
 .list-group-item{
     display: inline-flex;
 }
@@ -125,7 +121,7 @@ main .box_container{
     color: white;
 }
 
-/* &raquo */
+/* media query per canvas desktop */
 @media screen and (min-width:992px) {
     .offcanvas.offcanvas-end{
         width: 50%;
