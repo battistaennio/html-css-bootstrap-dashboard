@@ -7,7 +7,7 @@ body{
 }
 
 .hover:hover{
-    background-color: rgba(211, 211, 211, 0.658);
+    background-color: rgba(211, 211, 211, 0.356);
     cursor: pointer;
 }
 
