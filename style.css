@@ -62,7 +62,6 @@ header .form-control{
 
 #main_container{
     height: calc(100vh - var(--height-header));
-    overflow-y: auto;
 }
 
     /* regole sezione azzurra */
@@ -72,10 +71,15 @@ header .form-control{
 }
 
 #blue_bar strong{
-    font-size: 25px;
+    font-size: 30px;
 }
 
         /* regole canvas */
+#blue_bar .btn:hover{
+    color: #1b72e8;
+    background-color: white;
+}
+
 .offcanvas.offcanvas-end{
     width: 100%;
 }
