@@ -44,6 +44,7 @@ header .form-control{
     height: calc(100vh - var(--height-header));
     background-color: #051f33;
     color: white;
+    background-image: url(img/sidebar-bg.png);
 }
 
 #left-bar .nav-link{
@@ -100,8 +101,6 @@ header .form-control{
 .breadcrumb{
     --bs-breadcrumb-item-padding-x: 0.15rem;
 }
-    /* fine regole sezione azzurra */
-
 
     /* regole card main */
 .card img{
